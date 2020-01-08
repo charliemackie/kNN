@@ -17,7 +17,7 @@ learnset_labels = iris_labels[indices[:-n_training_samples]]
 testset_data = iris_data[indices[-n_training_samples:]]
 testset_labels = iris_labels[indices[-n_training_samples:]]
 
-# Visualize our data set
+# Visualize our data set.
 
 import matplotlib.pyplot as plt
 from mpl_toolkits.mplot3d import Axes3D
