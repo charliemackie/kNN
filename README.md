@@ -7,4 +7,6 @@ There is a wieghted and unweighted method of determining which class a certain I
 
 In the unweighted method, the closest neighbors determine the classification of set instance. (Most common)
 
-In the Weighted method, the distance of each neighbor is assessed and weights the vote of which type of Iris should be selected. 
+In the weighted method, the distance of each neighbor is assessed and given a weight which will help determine the classification of set instance.
+
+Adapted from: https://www.python-course.eu/k_nearest_neighbor_classifier.php
