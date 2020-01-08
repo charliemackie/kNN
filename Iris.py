@@ -7,7 +7,7 @@ iris = datasets.load_iris()
 iris_data = iris.data
 iris_labels = iris.target
 
-# Split and organize the data into a random array
+# Split and organize the data into a random array.
 
 np.random.seed(42)
 indices = np.random.permutation(len(iris_data))

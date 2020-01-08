@@ -1,7 +1,7 @@
 import numpy as np
 from sklearn import datasets
 
-# Load the Iris Data from SkLearn
+# Load the Iris Data from SkLearn.
 
 iris = datasets.load_iris()
 iris_data = iris.data
