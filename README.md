@@ -16,7 +16,7 @@ weights = 'uniform' assigns uniform weights to each neighbor. This is also the d
 
 weights = 'distance' assigns weights proportional to the inverse of the distance from the query sample.
 
-## Parameters:
+#### Parameters:
 
   1. n_neighbors, =k - the number of neighbors used for the method
   2. weights, 'uniform' or 'distance' 
