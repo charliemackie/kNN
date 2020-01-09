@@ -3,10 +3,11 @@ Leveraging kNN algorithm's to classify different data sets
 
 # Iris
 
-1. There is a wieghted and unweighted method of determining which class a certain Iris should belong to.
-2. In the unweighted method, the closest neighbors determine the classification of set instance. (Most common)
+There is a wieghted and unweighted method of determining which class a certain Iris should belong to:
 
-In the weighted method, the distance of each neighbor is assessed and given a weight which will help determine the classification of set instance.
+1. Unweighted method, the closest neighbors determine the classification of set instance. (Most common)
+
+2. Weighted method, the distance of each neighbor is assessed and given a weight which will help determine the classification of set instance.
 
 # SkLearn
 
